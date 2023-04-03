@@ -100,16 +100,16 @@ p.about-title {
   text-decoration: underline;
 }
 
-@media (max-width: 756px) {
+@media (max-width: 500px) {
   h1 {
-    font-size: 0px;
+    font-size: 30px;
     font-weight: 800;
   }
   .general-info {
-    font-size: 10px;
+    font-size: 14px;
   }
   #greeding {
-    font-size: 1px;
+    font-size: 26px;
   }
   a.contact,
   a.about-me {
@@ -135,5 +135,11 @@ p.about-title {
   }
   #email-adress {
     font-size: 16px;
+  }
+  paragraph-title {
+    font-size: 18px;
+  }
+  project-detail {
+    font-size: 12px;
   }
 }
