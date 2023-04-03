@@ -1,0 +1,101 @@
+:root {
+    --light-blue-color: #6c63ff;
+    --dark-blue-color: #544bfc;
+    --box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.3);
+    --dark-grey-color: #4c4c4c;
+    --light-grey-color: #f5f2fe;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    margin: 40px auto 20px auto;
+    font-size: 85px;
+    line-height: 58px;
+}
+
+.general-info {
+    font-size: 22px;
+    color: rgb(81, 80, 79);
+    font-weight: 600;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.more-info {
+    display: flex;
+    justify-content: center;
+}
+
+a.contact,
+a.about-me {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--light-blue-color);
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#greeding {
+    font-size: 48px;
+    margin: 60px auto 20px auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.contact {
+    background-color: var(--light-blue-color);
+    color: white;
+    box-shadow: var(--box-shadow);
+}
+
+:hover.contact {
+    background-color: var(--dark-blue-color);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-info {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#email-adress {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--dark-blue-color);
+    text-decoration: none;
+}
+
+p.about-title {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+    color: var(--dark-grey-color);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.homepage-link {
+    color: var(--dark-blue-color);
+    text-decoration: none;
+}
+
+.homepage-link:hover {
+    text-decoration: underline;
+}
